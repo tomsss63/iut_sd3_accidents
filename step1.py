@@ -12,3 +12,5 @@ accident = carac.merge(lieux, on='Num_Acc')
 result_df = victime.merge(accident, on='Num_Acc')
 
 result_df.to_csv("step1/merged_data.csv", index=False)
+
+print("ok")
